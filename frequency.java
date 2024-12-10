@@ -8,6 +8,9 @@ class frequency{
         String newstr="";
         for(int i=0;i<str.length();i++){
             char temp=str.charAt(i);
+            if(temp==' '){
+                continue;
+            }
             if(newstr.indexOf(temp)==-1){
                 int count=1;
                 for(int j=i+1;j<str.length();j++){
