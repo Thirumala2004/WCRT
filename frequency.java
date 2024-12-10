@@ -18,9 +18,6 @@ class frequency{
                         count++;
                     }
                 }
-                if(newstr.indexOf(temp)==-1){
-                
-                }
                 System.out.println(temp+" appears "+count+" times");
                 newstr=newstr+temp;
             }
