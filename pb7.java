@@ -13,6 +13,7 @@ public class pb7 {
         for(int i=0;i<numstr.length();i++){
             numarr[i]=(numstr.charAt(i)-48);
         }
+        System.out.print("Array of Elements before performing "+act+" actions is : ");
         for(int i=0;i<numarr.length;i++){
             System.out.print(numarr[i]+" ");
         }
@@ -44,9 +45,9 @@ public class pb7 {
                 numarr[(act.charAt(i+1))-48]=temp;
             }
         }
-        System.out.println();
+        System.out.print("\nArray of Elements after performing "+act+" actions is : ");
         for(int i=0;i<numarr.length;i++){
-            System.out.print(numarr[i]);
+            System.out.print(numarr[i]+" ");
         }
     }
 }
