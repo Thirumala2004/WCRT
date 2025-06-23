@@ -1,6 +1,7 @@
 import java.util.*;
 class pb1{
     public static void main(String[] args) {
+        //Divided by 1,2,4,8 and not 10.
         Scanner sn=new Scanner(System.in);
         System.out.print("Enter a number : ");
         int num=sn.nextInt();
