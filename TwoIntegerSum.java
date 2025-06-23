@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumnum {
+public class TwoIntegerSum {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the Siz of array : ");
