@@ -2,6 +2,8 @@ import java.lang.*;
 import java.util.*;
 public class pb2 {
     public static void main(String[] args) {
+        //Superior Element 
+        //The elements which is bigger then all the following elements
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the Size of Array : ");
         int n=sc.nextInt();
